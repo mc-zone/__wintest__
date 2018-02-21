@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mc-zone/__wintest__/issues"
   },
-  "homepage": "https://github.com/mc-zone/__wintest__#readme"
+  "homepage": "https://github.com/mc-zone/__wintest__#readme",
+  "dependencies": {
+    "webpack": "^4.0.0-beta.2"
+  }
 }

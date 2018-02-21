@@ -4,6 +4,7 @@ environment:
 
 install:
   - ps: Install-Product node $env:nodejs_version x64
+  - yarn
 
 # Post-install test scripts.
 test_script:
