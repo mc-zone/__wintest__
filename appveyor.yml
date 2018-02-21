@@ -1,0 +1,15 @@
+# Test against the latest version of this Node.js version
+environment:
+  nodejs_version: "9"
+
+install:
+  - ps: Install-Product node $env:nodejs_version x64
+
+# Post-install test scripts.
+test_script:
+  # Output useful info for debugging.
+  - node --version
+  - node index.js
+
+# Don't actually build.
+build: off
