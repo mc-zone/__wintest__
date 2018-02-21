@@ -20,7 +20,7 @@ webpack({
   console.log(err);
   const root = stats.compilation.options.context;
   console.log("context", root);
-  const file = path.resolve(__dirname, "a");
+  const file = path.resolve(__dirname, "./a");
   console.log("file", file);
   console.log("relative", path.relative(root, file));
 })
